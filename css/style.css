@@ -1,0 +1,16 @@
+body {
+  background: #EAE2B7; }
+
+.header {
+  background: #003049;
+  color: #F77F00;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center; }
+
+.content {
+  background: #D62828;
+  color: #FCBF49;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center; }

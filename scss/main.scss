@@ -1,0 +1,28 @@
+@mixin spacing {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+$color-primary: #003049;
+$color-background: #EAE2B7;
+$color-content: #D62828;
+$color-headertxt: #F77F00;
+$color-contenttxt: #FCBF49;
+
+
+body {
+    background: $color-background;
+}
+
+.header {
+    background: $color-primary;
+    color: $color-headertxt;
+    @include spacing;
+}
+
+.content {
+    background: $color-content;
+    color: $color-contenttxt;
+    @include spacing;
+}
